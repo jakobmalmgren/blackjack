@@ -1,0 +1,46 @@
+body {
+  width: 100%;
+}
+.container {
+  margin: auto;
+  width: 60%;
+  height: 500px;
+  background-image: url(/img/poker-5750834_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+h1 {
+  text-transform: uppercase;
+  color: gold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+p {
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.btn_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+button {
+  width: 200px;
+  height: 50px;
+  color: gold;
+  background-color: green;
+  text-transform: uppercase;
+  border: 1px solid gold;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+#new_card {
+  background-color: gold;
+  color: green;
+  border: 1px solid green;
+}
